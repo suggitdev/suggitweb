@@ -11,7 +11,13 @@ body {
 
   font-family: 'Roboto mono';
   font-size: 14px;
-  color: #000000;
+  color: white;
+}
+
+.leftshoulder {
+  position: fixed;
+  top: 40px;
+  left: 40px;
 }
 
 .container {
@@ -36,7 +42,7 @@ body {
 
 .navbar a {
   padding: 5px;
-  width: 2%;
+  width: 25%;
 
   float: left;
   color: red;
@@ -45,7 +51,7 @@ body {
   font-size: 10px;
 
   background-repeat: repeat;
-  background-position: top left;
+  background-position: top left;g
 }
 
 .navbar a.active {
