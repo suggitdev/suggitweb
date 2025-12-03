@@ -1,10 +1,16 @@
 body {
-  background-image: url('https://i.imgur.com/n1dLSmj.gif');
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  border: 40px solid transparent;
+  box-sizing: border-box;
+  
+  background-image: url("images/flamebackground.gif");
   background-repeat: repeat;
   background-position: top left;
-  min-height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
+
+  font-family: 'Roboto mono';
+  font-size: 14px;
   color: #000000;
 }
 
@@ -29,18 +35,22 @@ body {
 }
 
 .navbar a {
-  float: left;
   padding: 5px;
+  width: 2%;
+
+  float: left;
   color: red;
+  text-align: center;
   text-decoration: underline;
   font-size: 10px;
-  width: 23.4%;
-  text-align: center;
+
+  background-repeat: repeat;
+  background-position: top left;
 }
 
 .navbar a.active {
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/f0836587180073.5db0260d02bd1.gif");
-    color: black;
+  background-image: url("images/flamebackground2.gif");
+  color: black;
 }
 
 .navbar a.ocean {
@@ -48,7 +58,7 @@ body {
 }
 
 .navbar a.ocean:hover {
-  background-image: url("https://i.pinimg.com/originals/1d/15/d8/1d15d8da8b3b6f3a895828ba2663f409.gif");
+  background-image: url("images/oceanbackground2.gif");
   color: white;
 }
 
@@ -57,7 +67,7 @@ body {
 }
 
 .navbar a.jungle:hover {
-  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUybGh3YzV4MW05ZW9wZ2MzdHZjMHA5bHE5NHYyeGkxdG94cXFtd2Y0bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/uf3jumi0zzUv6/200w.gif");
+  background-image: url("images/junglebackground2.gif");
   color: white;
 }
 
@@ -66,7 +76,7 @@ body {
 }
 
 .navbar a.desert:hover {
-  background-image: url("https://media.tenor.com/-9MYV1QS32UAAAAM/sand-desert.gif");
+  background-image: url("images/desertbackground2.gif");
   color: black;
 }
 
