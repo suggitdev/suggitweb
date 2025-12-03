@@ -25,7 +25,6 @@ body {
 
 .navbar {
   width: 100%;
-  background-color: #ffe6e6
   overflow: auto;
 }
 
@@ -39,12 +38,21 @@ body {
   text-align: center;
 }
 
-.navbar a:hover {
-  background-color: white;
+.navbar a.active {
+  background-color: red;
+  color: white;
 }
 
-.navbar a.active {
-  background-color: black;
+.navbar a.ocean {
+  color: blue;
+}
+
+.navbar a.jungle {
+  color: darkgreen;
+}
+
+.navbar a.desert {
+  color: gold;
 }
 
 .content {
@@ -52,7 +60,7 @@ body {
 }
 
 .content h1 {
-  text-decoration: underliine;
+  text-decoration: underiine;
 }
 
 
