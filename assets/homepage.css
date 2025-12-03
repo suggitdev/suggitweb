@@ -1,0 +1,9 @@
+body {
+  background-image: url('https://i.imgur.com/n1dLSmj.gif');
+  background-repeat: repeat;
+  background-position: top left;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
